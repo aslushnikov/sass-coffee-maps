@@ -1,0 +1,11 @@
+$my-color: lightgray;
+body {
+    background-color: $my-color;
+    padding: 10px;
+    color: blue;
+    #content {
+        background-color: $my-color;
+        margin: 1em;
+    }
+}
+
