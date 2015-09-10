@@ -1,0 +1,2 @@
+body{display:flex;width:100%;justify-content:center}content{display:flex;justify-content:center}content .cell{height:10em;margin:1em;border:1px solid black;display:flex;align-items:center;justify-content:center}content .mixin1,content a{-webkit-border-radius:20px;-moz-border-radius:20px;-ms-border-radius:20px;border-radius:20px;background-color:#d3d3d3}content .mixin2{color:red;-webkit-border-radius:40px;-moz-border-radius:40px;-ms-border-radius:40px;border-radius:40px;background-color:pink}
+/*# sourceMappingURL=demo3.css.map */

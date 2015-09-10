@@ -1,0 +1,35 @@
+$my-color: lightgray;
+body {
+    background-color: $my-color;
+    padding: 10px;
+    color: blue;
+    #content {
+        background-color: $my-color;
+        margin: 1em;
+    }
+}
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.success {
+  @include border-radius(10px);
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @include border-radius(12px);
+  @extend .message;
+  border-color: red;
+}

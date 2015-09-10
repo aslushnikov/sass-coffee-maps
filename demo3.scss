@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin check {
+    color: red;
+}
+
+$fav-color: lightgray !global;
+$default-width: 4px !global;
+content {
+    display: flex;
+    justify-content: center;
+    .cell {
+        height: 10em;
+        margin: 1em;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mixin1, a {
+        @include border-radius(20px);
+        background-color: $fav-color;
+    }
+
+    .mixin2 {
+        @include check;
+        @include border-radius(40px);
+        background-color: pink;
+    }
+}
+
+/*@import "fancy";*/

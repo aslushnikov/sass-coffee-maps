@@ -1,0 +1,15 @@
+content {
+    .fancy1 {
+        background-color: $fav-color;
+        border-width: $default-width;
+        border-color: gray;
+    }
+
+    .fancy2 {
+        @include border-radius($default-width);
+        background-color: $fav-color;
+        border-width: $default-width;
+        border-color: blue;
+    }
+}
+
