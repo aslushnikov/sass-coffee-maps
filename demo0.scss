@@ -1,0 +1,30 @@
+$my-color: lightgray;
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: monospace;
+        font-size: 45pt;
+        height: 5em;
+        width: 5em;
+        margin: 10px;
+    }
+
+    .box1 {
+        background-color: $my-color;
+    }
+
+    .box2 {
+        background-color: $my-color;
+    }
+
+    .box3 {
+        background-color: $my-color;
+    }
+}
