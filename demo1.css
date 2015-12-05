@@ -1,2 +1,11 @@
-body{background-color:#d3d3d3;padding:10px;color:blue}body #content{background-color:#d3d3d3;margin:1em}
+body {
+  background-color: lightgray;
+  padding: 10px;
+  color: blue;
+}
+body #content {
+  background-color: lightgray;
+  margin: 1em;
+}
+
 /*# sourceMappingURL=demo1.css.map */

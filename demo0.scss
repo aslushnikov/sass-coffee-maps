@@ -1,4 +1,5 @@
 $my-color: orange;
+$class-slug: box;
 
 body {
     width: 100%;
@@ -15,16 +16,10 @@ body {
         width: 5em;
         margin: 10px;
     }
-
-    .box1 {
-        background-color: $my-color;
-    }
-
-    .box2 {
-        background-color: $my-color;
-    }
-
-    .box3 {
-        background-color: $my-color;
+    @for $i from 1 through 3 {
+      .#{$class-slug}#{$i} {
+          background-color: $my-color;
+      }
     }
 }
+

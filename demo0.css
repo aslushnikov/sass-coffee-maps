@@ -1,2 +1,26 @@
-body{width:100%;display:flex;justify-content:center}body div{display:flex;align-items:center;justify-content:center;font-family:monospace;font-size:45pt;height:5em;width:5em;margin:10px}body .box1{background-color:orange}body .box2{background-color:orange}body .box3{background-color:orange}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 45pt;
+  height: 5em;
+  width: 5em;
+  margin: 10px;
+}
+body .box1 {
+  background-color: orange;
+}
+body .box2 {
+  background-color: orange;
+}
+body .box3 {
+  background-color: orange;
+}
+
 /*# sourceMappingURL=demo0.css.map */
